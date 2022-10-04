@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap')
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:rgb(84, 82, 82);
+    width: 10vw;
+}
+.sidebar nav{
+    padding: 20px;
+
+}
+.sidebar nav li{
+    list-style:none;
+    font-size:20px;
+    padding: 30px 0;
+}
+.main{
+   /* background-color: yellow;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.info{
+   /* background-color: rgb(212, 132, 13);*/
+    height: 80vh;
+    width: 80vw;
+    margin:50px auto;
+    justify-content:space-around;     
+    display: flex;                  
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.hello{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    font-size: 70px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.about{
+font-size: 30px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons{
+
+}
+.devPic img{
+    height: 80vh;
+}
+
